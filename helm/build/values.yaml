@@ -1,0 +1,16 @@
+app:
+  name: lior
+  namespace: lior-dev
+  cluster: .apps.cluster-cl4w8.cl4w8.sandbox526.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/liorjanus/lior
+  org: liorjanus
+  name: lior
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: liorjanus
+  name: lior
